@@ -27,3 +27,12 @@ tiktoken
 torch
 transformers
 xxhash
+
+flask==3.0.0
+flask-restful==0.3.10
+graphviz==0.20.1
+requests==2.31.0
+python-dotenv==1.0.0
+concurrent-futures==3.0.5
+pymilvus==2.3.5
+neo4j==5.14.1

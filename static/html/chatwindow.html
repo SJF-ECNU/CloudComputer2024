@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="../js/chat.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.5.2/css/all.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!-- Style imports -->
+    <link rel="stylesheet" type="text/css" href="../css/chat.css">
+</head>
+
+<body>
+    <!-- Entry -->
+    <div class="chat_commento">
+        <!-- Top -->
+        <div class="chat_top">  
+            <span>蔚蓝助手 </span> 
+            <i class="fa-brands fa-bots" id = 'auzre-bot-icon'></i>
+        </div>
+        <!-- Line -->
+        <div class="line"></div>
+        <!-- Middle -->
+        <div class="chat_middle" id="chat-box">     
+        </div>
+        <!-- Line -->
+        <div class="line"></div>
+        <!-- Foot -->
+        <div class="chat_foot">
+            <!-- Context -->
+            <textarea style="font-size: 15px;border:none;" class="chat_context" id="user-input" cols="30" rows="10" placeholder="请输入...(按下 enter 发送 / 按下 Shift + Enter 换行)"></textarea>
+            <button class="chat_commit" id="submit-btn">发送</button>
+        </div>
+    </div>
+</body>
+</html>
