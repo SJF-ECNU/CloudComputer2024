@@ -1,0 +1,16 @@
+axios==1.7.2
+base-64==1.0.0
+cheerio==1.0.0-rc.12
+cors==2.8.5
+csv-writer==1.6.0
+execjs==1.0.7
+express==4.19.2
+fs==0.0.1-security
+jquery==3.7.1
+jsdom==24.1.0
+json2csv==6.0.0-alpha.2
+log4js==6.9.1
+mysql2==3.10.2
+path==0.12.7
+utf8==3.0.0
+vm2==3.9.6
